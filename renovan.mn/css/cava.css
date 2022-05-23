@@ -1,0 +1,38 @@
+h1{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+    color: #fff;
+}
+
+/*body*/
+
+body{
+    width: 100%;
+    height: 600px;
+    background: #373B44;
+    background: url(https://revistaelconocedor.com/wp-content/uploads/2015/07/Jackson-11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(77, 38, 3), 0 6px 20px 0 rgba(75, 45, 7, 0.89);
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+div.pie{
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(131, 0, 143);
+    padding: 10px;
+}

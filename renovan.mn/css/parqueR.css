@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    margin: 20px 0 15px 0;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+
+body{
+    width: 100%;
+    height: 600px;
+    background: #373B44;
+    background: url(https://revistaaventurero.com.mx/wp-content/uploads/2017/08/PARQUE-JAPON%C3%89S-3-sopitas.com_-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+div.galeria{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0,0.19);
+    float: left;
+    width: 350px;
+}
+
+div.galeria img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+div.pie{
+    text-align: center;
+    text-shadow: 2px 2px 5px purple;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
